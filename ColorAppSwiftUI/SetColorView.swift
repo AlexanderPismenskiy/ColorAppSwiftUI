@@ -17,7 +17,14 @@ struct SetColorView: View {
         
         VStack(spacing: 15) {
             RoundedRectangle(cornerRadius: 15)
-                .foregroundColor(Color(red: Double(CGFloat(redSliderValue/255)), green: Double(CGFloat(greenSliderValue/255)), blue: Double(CGFloat(blueSliderValue/255)), opacity: 1))
+                .foregroundColor(Color(
+                red:
+                Double(CGFloat(redSliderValue/255)),
+                green:
+                Double(CGFloat(greenSliderValue/255)),
+                blue:
+                Double(CGFloat(blueSliderValue/255))
+                ))
                 .frame(width: 350, height: 200)
             
             VStack {
