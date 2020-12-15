@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9599A2D258929690087C0B7 /* ColorAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9599A2C258929690087C0B7 /* ColorAppSwiftUIApp.swift */; };
-		A9599A2F258929690087C0B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9599A2E258929690087C0B7 /* ContentView.swift */; };
+		A9599A2F258929690087C0B7 /* SetColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9599A2E258929690087C0B7 /* SetColorView.swift */; };
 		A9599A312589296E0087C0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9599A302589296E0087C0B7 /* Assets.xcassets */; };
 		A9599A342589296E0087C0B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9599A332589296E0087C0B7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		A9599A29258929690087C0B7 /* ColorAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9599A2C258929690087C0B7 /* ColorAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		A9599A2E258929690087C0B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9599A2E258929690087C0B7 /* SetColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColorView.swift; sourceTree = "<group>"; };
 		A9599A302589296E0087C0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9599A332589296E0087C0B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9599A352589296E0087C0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				A9599A2C258929690087C0B7 /* ColorAppSwiftUIApp.swift */,
-				A9599A2E258929690087C0B7 /* ContentView.swift */,
+				A9599A2E258929690087C0B7 /* SetColorView.swift */,
 				A9599A302589296E0087C0B7 /* Assets.xcassets */,
 				A9599A352589296E0087C0B7 /* Info.plist */,
 				A9599A322589296E0087C0B7 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9599A2F258929690087C0B7 /* ContentView.swift in Sources */,
+				A9599A2F258929690087C0B7 /* SetColorView.swift in Sources */,
 				A9599A2D258929690087C0B7 /* ColorAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
